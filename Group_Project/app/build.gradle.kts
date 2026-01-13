@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.project"
+    namespace = "com.example.madd_project"
     compileSdk {
         version = release(36)
     }

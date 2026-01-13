@@ -10,28 +10,30 @@
         android:id="@+id/etWeight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Weight (kg)"
-        android:inputType="numberDecimal" />
+        android:hint="@string/enter_weight_kg"
+        android:inputType="numberDecimal"
+        android:autofillHints="weight" />
 
     <EditText
         android:id="@+id/etHeight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Height (m)"
-        android:inputType="numberDecimal" />
+        android:hint="@string/enter_height_m"
+        android:inputType="numberDecimal"
+        android:autofillHints="height" />
 
     <Button
         android:id="@+id/btnCompute"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Compute BMI"
+        android:text="@string/compute_bmi"
         android:layout_marginTop="10dp" />
 
     <Button
         android:id="@+id/btnReset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Reset" />
+        android:text="@string/reset" />
 
     <TextView
         android:id="@+id/tvResult"
